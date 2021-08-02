@@ -1,0 +1,30 @@
+.dropdown-list {
+  width: 150px;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-list li {
+  background: transparent;
+  cursor: pointer;
+}
+
+.dropdown-list.clicked {
+  display: none;
+}
+
+.Account-List {
+  display: block;
+  margin-left: -25px;
+  text-decoration: none;
+  color: whitesmoke;
+  width: 150px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.Account-List:hover {
+  cursor: pointer;
+  color: black;
+}

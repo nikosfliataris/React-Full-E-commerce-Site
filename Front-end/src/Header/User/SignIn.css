@@ -1,0 +1,42 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200vh;
+}
+.signin-header {
+  display: flex;
+  justify-content: center;
+}
+.signin-logo {
+  margin-top: 10px;
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+.signin-container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.signin-container > form > input {
+  height: 30px;
+  width: 100%;
+}
+.signin-form > Button {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+}
+.registry-button {
+  background-color: #363f4d !important;
+  color: whitesmoke !important;
+}
+.google-button {
+  background-color: #363f4d !important;
+  color: whitesmoke !important;
+}

@@ -1,0 +1,57 @@
+.productm-container {
+  display: inline-flex;
+  width: 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.MuiCardMedia-root {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-card {
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.product-card:hover {
+  background-color: whitesmoke;
+}
+.product-rating > strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.product-price > strong {
+  margin-top: -15px;
+}
+.MuiIconButton-label {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.favorite-cart-button {
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+  background-color: #eb3e32;
+  color: #363f4d;
+}
+.add-cart-button {
+  background-color: #363f4d;
+  color: whitesmoke;
+  margin-top: -10px;
+}

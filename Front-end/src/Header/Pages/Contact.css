@@ -1,0 +1,48 @@
+.contact-place {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form {
+  flex: 0.5;
+}
+.contact-form > h4 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.form-name {
+  width: 45%;
+  margin: 10px;
+}
+.form-email {
+  width: 45%;
+  margin: 10px;
+}
+.form-message {
+  width: 94%;
+  height: 200px;
+  margin: 10px;
+}
+.form-message[type="text"] {
+  align-items: flex-start;
+  text-align: start;
+  justify-content: flex-start;
+  display: flex;
+}
+.form-btn {
+  background-color: #363f4d;
+  margin-left: 8px;
+}
+.contact-info {
+  flex: 0.5;
+  margin: -5px;
+}
+.contact-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: justify;
+}

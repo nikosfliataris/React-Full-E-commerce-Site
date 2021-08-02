@@ -1,0 +1,25 @@
+.link-list {
+  display: block;
+  margin-top: 150px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+.link-list > a > img {
+  width: 200px;
+  height: 200px;
+  margin-left: 120px;
+}
+.link-item {
+  width: 30%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.link-list > a > h3 {
+  display: flex;
+  margin-top: 300px;
+  margin-left: -400px;
+}

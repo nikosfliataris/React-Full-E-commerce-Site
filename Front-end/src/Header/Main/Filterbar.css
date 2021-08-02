@@ -1,0 +1,33 @@
+.filter-container {
+  flex: 1;
+  height: 250px;
+}
+.filter-bar {
+  display: flex;
+  height: 50px;
+  border: 1px solid lightgray;
+  width: 100%;
+  margin-top: 22px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.position-icons {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menuicon {
+  margin-right: 5px;
+}
+.menuicon:hover {
+  color: #eb3e32;
+}
+.appicon {
+  margin-left: 5px;
+}
+.appicon:hover {
+  color: #eb3e32;
+}
+.main-filter-image > img {
+  width: 100%;
+}

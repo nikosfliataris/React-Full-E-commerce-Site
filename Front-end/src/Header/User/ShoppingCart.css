@@ -1,0 +1,16 @@
+.cart {
+  height: auto;
+}
+.cart-area {
+  display: flex;
+}
+.cart-list {
+  display: block;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.subtotal-container {
+  width: 30%;
+}

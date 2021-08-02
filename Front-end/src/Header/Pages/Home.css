@@ -1,0 +1,53 @@
+.home-container {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-container {
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.carousel {
+  overflow: hidden;
+  margin-left: -25px;
+  width: 770px;
+  height: auto;
+}
+.carousel-item {
+  width: 800px;
+  height: 500px !important ;
+}
+.second-image {
+  width: 800px;
+  height: 500px !important ;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+.second-container > figure {
+  width: 275px;
+  margin-right: 130px;
+  margin-left: -130px;
+}
+.xbox {
+  width: 280px;
+  height: 370px;
+  padding-top: 60px;
+}
+.black-friday {
+  width: 280px;
+  height: 170px;
+}
+.second-container > figure:hover > img {
+  animation: circle 0.75s;
+}
