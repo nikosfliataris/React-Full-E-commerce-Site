@@ -24,7 +24,7 @@ import Payment from "../Header/User/Payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 const promise = loadStripe(
-  "pk_test_51JJIxgEYuwIRN68itwga3yQdsk4KnUTiTH1pRPejOnJKa825RwmHpw6NDi42XaASJZRCqYWMKrhdqYAmWYcVC0l900T1O37wDP"
+  "{public stripe key}"
 );
 function Header() {
   return (
